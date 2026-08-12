@@ -25,7 +25,7 @@ module.exports = {
 		"data-animation-prepare",
 		"data-split",
 		"data-alignment",
-		"data-icon"
+		"data-type"
 	],
 	safelist: {
 		standard: [/^block/, /^layout/, /^\[data-/, /^has-size-/, /^has-text-/],
