@@ -1,4 +1,4 @@
-@layer framework, defaults, components, pages;
+@layer framework.reset, framework.layout, framework.elements, framework.is, framework.has, defaults, components, pages;
 
 @import "cleacss/untranspiled" layer(framework);
 /*--------------------------------------------------------------
@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 @import "styles/_accessibility.css" layer(defaults);
 @import "styles/_animations.css" layer(defaults);
-@import "styles/_view-transitions.css";
+@import "styles/_view-transitions.css" layer(defaults);
 /*--------------------------------------------------------------
 # Styles
 --------------------------------------------------------------*/
