@@ -113,8 +113,8 @@
 }
 
 .menubar__toggle {
-	&[aria-expanded="false"] .i[data-icon="close"],
-	&[aria-expanded="true"] .i[data-icon="menu"] {
+	&[aria-expanded="false"] .i[data-type="close"],
+	&[aria-expanded="true"] .i[data-type="menu"] {
 		display: none;
 	}
 }
